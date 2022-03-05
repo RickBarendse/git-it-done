@@ -20,13 +20,23 @@
 
 
   <main class="flex-row justify-space-between">
-    <div class="col-12 col-md-4">      <div class="card">
+    <div class="col-12 col-md-4"> 
+      <div class="card">
         <h3 class="card-header text-uppercase">Search by User</h3>
         <form id="user-form" class="card-body">
           <label class="form=label" for="username">Username</label>
           <input name="username" id="username" type="text" autofocus="true" class="form-input" />
           <button type="submit" class="btn">Get User</button>
         </form>
+      </div>
+
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search By Topic</h3>
+        <div id="language-buttons"  class="card-body">
+          <button data-language="javascript" class="btn">JavaScript</buttons>
+          <button data-language="html" class="btn">HTML</buttons>
+          <button data-language="css" class="btn">CSS</buttons>     
+        </div>
       </div>
     </div>
 
